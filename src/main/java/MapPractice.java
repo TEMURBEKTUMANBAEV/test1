@@ -7,5 +7,6 @@ public class MapPractice {
 
         salary.put("Dana", 2400);
         salary.put("Chirag", 2000);
+        salary.put("Azat", 6000);
     }
 }
