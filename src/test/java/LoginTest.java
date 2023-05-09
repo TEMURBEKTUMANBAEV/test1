@@ -5,7 +5,7 @@ public class LoginTest {
 
     @Before
     public void setUP(){
-        
+        System.out.println("Opening browser...");
     }
 
 
