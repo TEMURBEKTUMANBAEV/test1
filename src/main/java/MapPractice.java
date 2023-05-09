@@ -12,5 +12,5 @@ public class MapPractice {
         salary.put("Chirag", 7200);
         salary.put("Aizhan", 6700);
         salary.put("Madina", 7400);
-        salary.put("Mi", 7400);
+        salary.put("Milana", 1800);
    }}
