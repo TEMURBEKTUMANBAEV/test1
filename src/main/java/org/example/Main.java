@@ -1,9 +1,12 @@
 package org.example;
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
+        WebDriverManager.chromedriver().setup();
     }
 }
