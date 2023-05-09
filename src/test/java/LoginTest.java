@@ -1,6 +1,14 @@
+import org.junit.Before;
 import org.junit.Test;
 
 public class LoginTest {
+
+    @Before
+    public void setUP(){
+        
+    }
+
+
     @Test
    public void verifyUserCanLogin(){
 
@@ -17,7 +25,7 @@ public class LoginTest {
 
    @Test
     public void verifyUserCanResentPassword(){
-        
+
        System.out.println("verify user can resent password");
        System.out.println("Close browser...");
    }
