@@ -1,5 +1,5 @@
 public class DemoClass {
-   public void verifyLoginSuccessfulWithValidCredentials(){
-       
+   public void verifyCanLogin(){
+
    }
 }
