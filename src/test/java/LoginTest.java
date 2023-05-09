@@ -12,11 +12,13 @@ public class LoginTest {
     public void verifyUserCannotLoginWithInvalidCredentials(){
        System.out.println("Opening browser...");
        System.out.println("verify login unsuccessful for invalid credentials");
+       System.out.println("Close browser...");
    }
 
    @Test
     public void verifyUserCanResentPassword(){
         System.out.println("Opening browser...");
        System.out.println("verify user can resent password");
+       System.out.println("Close browser...");
    }
 }
