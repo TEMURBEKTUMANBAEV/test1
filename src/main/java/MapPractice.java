@@ -6,5 +6,6 @@ public class MapPractice {
         Map<String, Integer> salary = new HashMap<>();
 
         salary.put("Dana", 2400);
+        salary.put("Chirag", 2000);
     }
 }
