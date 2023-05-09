@@ -13,6 +13,6 @@ public class LoginTest {
 
    @Test
     public void verifyUserCanResentPassword(){
-        
+       System.out.println("verify user can resent password");
    }
 }
