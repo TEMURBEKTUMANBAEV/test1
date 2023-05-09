@@ -3,7 +3,9 @@ import org.junit.Test;
 public class LoginTest {
     @Test
    public void verifyUserCanLogin(){
+        System.out.println("Opening browser...");
         System.out.println("verify login successful");
+        System.out.println("Close browser...");
    }
 
    @Test
