@@ -11,9 +11,9 @@ public class LoginTest {
     }
     @After
             public  void cleanUp(){
-        
+        System.out.println("Close browser...");
     }
-System.out.println("Close browser...");
+
 
     @Test
    public void verifyUserCanLogin(){
