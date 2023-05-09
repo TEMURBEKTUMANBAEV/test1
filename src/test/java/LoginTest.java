@@ -1,9 +1,9 @@
 import org.junit.Test;
 
-public class DemoClass {
+public class LoginTest {
     @Test
    public void verifyCanLogin(){
-
         System.out.println("verify login successful");
+        
    }
 }
