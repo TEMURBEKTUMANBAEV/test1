@@ -7,7 +7,7 @@ public class SearchFunctionalityTest extends BaseTest {
 }
 @Test
     public void verifyMessageWhenThereAreNoResults(){
-    System.out.println();
+    System.out.println("verify no results message");
 }
 
 @Test
