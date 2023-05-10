@@ -8,7 +8,7 @@ public class CartPageTest {
 
     @Test
     public void verifyUserCanRemoveItemFromCart(){
-        System.out.println();
+        System.out.println("verify user can remove item");
     }
 
     @Test
