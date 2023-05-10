@@ -3,13 +3,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CartPageTest {
-    
-
-    @After
-    public  void cleanUp(){
-        System.out.println("Close browser...");
-    }
-
     @Test
     public void verifyUserCanAddProductToCart(){
         System.out.println("verify user can add item");
