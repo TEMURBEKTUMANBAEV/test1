@@ -1,6 +1,6 @@
 package com.automation;
 
-import com.automation.BaseTest;
+import com.automation.test.BaseTest;
 import org.junit.Test;
 
 public class SearchFunctionalityTest extends BaseTest {
