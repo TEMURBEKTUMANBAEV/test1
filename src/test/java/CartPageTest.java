@@ -3,11 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CartPageTest {
-    @Before
-    public void setUP(){
-        System.out.println("Opening browser...");
-
-    }
+    
 
     @After
     public  void cleanUp(){
