@@ -13,6 +13,6 @@ public class CartPageTest {
 
     @Test
     public void verifyUserCanChangeQuantityOfItem(){
-        System.out.println();
+        System.out.println("verify user can change quantity of item");
     }
 }
