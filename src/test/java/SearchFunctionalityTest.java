@@ -12,6 +12,6 @@ public class SearchFunctionalityTest extends BaseTest {
 
 @Test
     public void verifySearchResultHasSearchKeyword(){
-    System.out.println();
+    System.out.println("verify search result has search keyword");
 }
 }
