@@ -1,3 +1,5 @@
+package com.automation;
+
 import com.automation.BaseTest;
 import org.junit.Test;
 
