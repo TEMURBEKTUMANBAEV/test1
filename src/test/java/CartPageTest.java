@@ -8,6 +8,11 @@ public class CartPageTest {
 
     @Test
     public void verifyUserCanRemoveItemFromCart(){
+
+    }
+
+    @Test
+    public void verifyUserCanChangeQuantityOfItem(){
         
     }
 }
