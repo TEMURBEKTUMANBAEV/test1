@@ -4,17 +4,6 @@ import org.junit.Test;
 
 public class LoginTest {
 
-    @Before
-    public void setUP(){
-        System.out.println("Opening browser...");
-
-    }
-    @After
-            public  void cleanUp(){
-        System.out.println("Close browser...");
-    }
-
-
     @Test
    public void verifyUserCanLogin(){
 
