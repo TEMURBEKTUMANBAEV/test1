@@ -1,2 +1,3 @@
-public class SearchFunctionalityTest {
+public class SearchFunctionalityTest extends BaseTest {
+
 }
