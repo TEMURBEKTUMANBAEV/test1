@@ -1,10 +1,13 @@
 package com.automation.test;
 
+import com.automation.catagories.SmokeTest;
 import com.automation.test.BaseTest;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 public class SearchFunctionalityTest extends BaseTest {
 @Test
+@Category(SmokeTest.class)
     public void verifySearchResultsAreDisplayed(){
     System.out.println("verify search result");
 }
