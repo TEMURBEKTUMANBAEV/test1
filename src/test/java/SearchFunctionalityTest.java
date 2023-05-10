@@ -7,6 +7,11 @@ public class SearchFunctionalityTest extends BaseTest {
 }
 @Test
     public void verifyMessageWhenThereAreNoResults(){
+
+}
+
+@Test
+    public void verifySearchResultHasSearchKeyword(){
     
 }
 }
