@@ -2,7 +2,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class LoginTest {
+public class LoginTest extends BaseTest{
 
     @Test
    public void verifyUserCanLogin(){
