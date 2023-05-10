@@ -1,4 +1,4 @@
-package com.automation;
+package com.automation.test;
 
 import com.automation.test.BaseTest;
 import org.junit.Test;
