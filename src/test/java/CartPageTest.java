@@ -3,7 +3,7 @@ import org.junit.Test;
 public class CartPageTest {
     @Test
     public void verifyUserCanAddProductToCart(){
-        System.out.println();
+        System.out.println("verify user can add item");
     }
 
     @Test
