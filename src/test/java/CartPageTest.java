@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,6 +8,12 @@ public class CartPageTest {
         System.out.println("Opening browser...");
 
     }
+
+    @After
+    public  void cleanUp(){
+        System.out.println("Close browser...");
+    }
+
     @Test
     public void verifyUserCanAddProductToCart(){
         System.out.println("verify user can add item");
