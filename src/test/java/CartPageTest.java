@@ -1,5 +1,4 @@
-import org.junit.After;
-import org.junit.Before;
+import com.automation.BaseTest;
 import org.junit.Test;
 
 public class CartPageTest extends BaseTest {

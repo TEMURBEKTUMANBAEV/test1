@@ -1,3 +1,4 @@
+import com.automation.BaseTest;
 import org.junit.Test;
 
 public class SearchFunctionalityTest extends BaseTest {
