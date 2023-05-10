@@ -2,7 +2,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CartPageTest {
+public class CartPageTest extends BaseTest {
     @Test
     public void verifyUserCanAddProductToCart(){
         System.out.println("verify user can add item");
