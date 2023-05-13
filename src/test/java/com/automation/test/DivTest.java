@@ -34,13 +34,15 @@ public class DivTest {
 
     @Test
     public void testWithAnotherZero(){
-        int a = 10, b = 0;
+        int a = 10, b = 0; //test data
         try {
             cal.div(a,b);
             Assert.fail("Expected exception but it is not throwing exception");
         }catch (Exception e){
           String actualMessage = e.getMessage();
-          Assert.assertEquals("/ by zero", actualMessage);
+          String expectedMessage = "/ by zero";
+          Assert.assertEquals(expectedMessage, actualMessage);
+          Assert.assertTrue(actualMessage.equals(expectedMessage));
         }
     }
 }
