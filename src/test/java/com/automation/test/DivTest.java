@@ -4,7 +4,7 @@ package com.automation.test;
 //2. a =4 , b = 0, expected = exception
 //3. a = 10, b = 10, expected = 1
 //4. a = -10, b = 5, expected = -2
-//5. a = -10, b = -5, expected = 2
+//5. a = -10, b = -5, expected = -2 *** <- this test we will make fail
 //6. a = 10, b = 20, expected = 0
 //7. a = 0, b = 10, expected = 0
 //8.  a = 0, b = 0, expected = exception
