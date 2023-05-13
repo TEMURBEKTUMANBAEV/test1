@@ -35,7 +35,8 @@ public class DivTest {
     @Test
     public void testWithAnotherZero(){
         int a = 10, b = 0;
-        
+        try {
+            cal.div(a,b);
+        }
     }
-
 }
