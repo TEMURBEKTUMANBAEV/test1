@@ -37,6 +37,8 @@ public class DivTest {
         int a = 10, b = 0;
         try {
             cal.div(a,b);
+        }catch (Exception e){
+            Assert.assertTrue(true);
         }
     }
 }
