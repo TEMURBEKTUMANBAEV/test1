@@ -46,4 +46,10 @@ public class DivTest {
           Assert.assertTrue(actualMessage.equals(expectedMessage));
         }
     }
+    @Test
+    public void testEqualNumbers(){
+        int a = 10, b = 10, expected = 1;
+        int actual = cal.div(a,b);
+        Assert.assertEquals(expected, actual);
+    }
 }
