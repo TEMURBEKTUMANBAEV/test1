@@ -15,6 +15,8 @@ import com.dev.product.calculator;
 import org.junit.Before;
 import org.junit.Test;
 
+import static javax.management.Query.div;
+
 public class DivTest {
     calculator cal;
 
@@ -24,7 +26,8 @@ public class DivTest {
       }
       @Test
     public void testPositive(){
-          
+          int a = 10, b = 5, expected = 2;
+          int actual = cal.div(a,b);
       }
 
 }
