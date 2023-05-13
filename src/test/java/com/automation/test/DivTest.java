@@ -37,6 +37,7 @@ public class DivTest {
         int a = 10, b = 0;
         try {
             cal.div(a,b);
+            Assert.fail("Expected exception but it is not throwing exception");
         }catch (Exception e){
             Assert.assertTrue(true);
         }
