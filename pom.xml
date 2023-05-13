@@ -37,4 +37,19 @@
     </dependency>
          
   </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache</groupId>
+                <artifactId></artifactId>
+                <version></version>
+                <configuration>
+                    <parallel></parallel>
+                    <threadCount></threadCount>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
