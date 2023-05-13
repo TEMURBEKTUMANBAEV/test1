@@ -16,7 +16,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static javax.management.Query.div;
+//import static javax.management.Query.div;
 
 public class DivTest {
     calculator cal;
@@ -43,7 +43,7 @@ public class DivTest {
           String expectedMessage = "/ by zero";
 
           Assert.assertEquals(expectedMessage, actualMessage);// OR
-          Assert.assertTrue(actualMessage.equals(expectedMessage));
+            Assert.assertEquals(actualMessage, expectedMessage);
         }
     }
     @Test
