@@ -19,6 +19,6 @@ public class DivTest {
 
       @Before
     public void setUp(){
-
+     cal = new calculator();
       }
 }
