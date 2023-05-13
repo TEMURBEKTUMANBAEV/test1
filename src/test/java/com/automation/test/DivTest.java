@@ -13,6 +13,7 @@ package com.automation.test;
 
 import com.dev.product.calculator;
 import org.junit.Before;
+import org.junit.Test;
 
 public class DivTest {
     calculator cal;
@@ -21,4 +22,9 @@ public class DivTest {
     public void setUp(){
      cal = new calculator();
       }
+      @Test
+    public void testPositive(){
+          
+      }
+
 }
