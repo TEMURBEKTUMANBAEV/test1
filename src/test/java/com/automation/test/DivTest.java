@@ -6,6 +6,7 @@ package com.automation.test;
 //4. a = -10, b = 5, expected = -2
 //5. a = -10, b = -5, expected = 2
 //6. a = 10, b = 20, expected = 0
+//7 a = 0, b = 10, expected = 0
 
 public class DivTest {
 
