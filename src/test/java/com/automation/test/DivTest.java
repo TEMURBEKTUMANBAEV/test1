@@ -32,4 +32,10 @@ public class DivTest {
           Assert.assertEquals(expected, actual);
       }
 
+    @Test
+    public void testWithAnotherZero(){
+        int a = 10, b = 0;
+        
+    }
+
 }
