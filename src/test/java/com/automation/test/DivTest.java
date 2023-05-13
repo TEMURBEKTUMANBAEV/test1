@@ -41,7 +41,8 @@ public class DivTest {
         }catch (Exception e){
           String actualMessage = e.getMessage();
           String expectedMessage = "/ by zero";
-          Assert.assertEquals(expectedMessage, actualMessage);
+
+          Assert.assertEquals(expectedMessage, actualMessage);// OR
           Assert.assertTrue(actualMessage.equals(expectedMessage));
         }
     }
