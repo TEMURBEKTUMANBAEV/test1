@@ -12,6 +12,7 @@ package com.automation.test;
 //10. a = 10, b = -5, expected = -2
 
 import com.dev.product.calculator;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -28,6 +29,7 @@ public class DivTest {
     public void testPositive(){
           int a = 10, b = 5, expected = 2;
           int actual = cal.div(a,b);
+          Assert.assertEquals(expected, actual);
       }
 
 }
