@@ -39,7 +39,8 @@ public class DivTest {
             cal.div(a,b);
             Assert.fail("Expected exception but it is not throwing exception");
         }catch (Exception e){
-           e.printStackTrace();
+          String actualMessage = e.getMessage();
+          Assert.assertEquals("/ by zero", actualMessage);
         }
     }
 }
