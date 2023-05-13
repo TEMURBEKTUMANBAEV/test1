@@ -52,4 +52,11 @@ public class DivTest {
         int actual = cal.div(a,b);
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testWithFirstNumberIsNegative(){
+        int a = -10, b = 5, expected = -2;
+        int actual = cal.div(a,b);
+        Assert.assertEquals(expected, actual);
+    }
 }
