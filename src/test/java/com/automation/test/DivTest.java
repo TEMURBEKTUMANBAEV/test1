@@ -11,9 +11,12 @@ package com.automation.test;
 // 9. a = 10000, b = 2500, expected = 4
 //10. a = 10, b = -5, expected = -2
 
+import com.dev.product.calculator;
 import org.junit.Before;
 
 public class DivTest {
+    calculator cal;
+
       @Before
     public void setUp(){
 
