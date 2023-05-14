@@ -22,8 +22,8 @@ public class DivTest {
     calculator cal;
 
       @Before
-    public void setUp(){
-     cal = new calculator();
+      public void setUp(){
+          cal = new calculator();
       }
       @Test
     public void testPositive(){
@@ -43,7 +43,7 @@ public class DivTest {
           String expectedMessage = "/ by zero";
 
           Assert.assertEquals(expectedMessage, actualMessage);// OR
-            Assert.assertEquals(actualMessage, expectedMessage);
+          Assert.assertTrue(expectedMessage.equals(actualMessage));
         }
     }
     @Test

@@ -15,29 +15,13 @@
     </properties>
          
 <dependencies>
-         
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.9.0</version>
-    </dependency>
-
-    <dependency>
-        <groupId>io.github.bonigarcia</groupId>
-        <artifactId>webdrivermanager</artifactId>
-        <version>5.3.0</version>
-    </dependency>
-
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.13.2</version>
+        <version>4.13.1</version>
         <scope>test</scope>
     </dependency>
-         
   </dependencies>
-
 
     <build>
         <plugins>
@@ -46,8 +30,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
-                   <parallel>methods</parallel>
-                    <threadCount>10</threadCount>
+                    <parallel>methods</parallel>
+                    <threadCount>30</threadCount>
                 </configuration>
             </plugin>
         </plugins>
